@@ -1,0 +1,138 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    word-spacing: 20px;
+}
+
+h5{
+    font-family: Arial, sans-serif;
+    color: #E7E8D1;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #A7BEAE;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+
+
+
+li a, .drpbtn {
+    display: inline-block;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, .drp:hover .drpbtn {
+    background-color: rgb(81, 180, 222);
+}
+  
+
+
+
+
+
+li.drp {
+    display: inline-block;
+}
+  
+.drpbtncnt {
+    display: none;
+    min-width: 160px;
+    box-shadow: 1px 7px 15px 1px rgba(0, 0, 0, 0.395);
+    z-index: 1;
+    position: absolute;
+    background-color: #E7E8D1;
+}
+  
+.drpbtncnt a {
+    color: rgba(0, 0, 0, 0.559);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.drpbtncnt a:hover {background-color: #f1f1f1;}
+  
+.drp:hover .drpbtncnt {
+    display: block;
+}
+
+
+
+
+h2{
+    margin-top: 50px;
+    
+}
+
+.motto{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+.mottobox{
+    background-color: #A7BEAE;
+    padding: 30px;
+}
+
+
+
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    background-color: #E7E8D1;
+    margin: 10%;
+    
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+
+footer {
+    background-color:  #B85042; 
+    color: #E7E8D1;
+    padding: 20px;
+    text-align: center;
+}
